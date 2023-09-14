@@ -11,6 +11,7 @@ void print(int element) {
 int main() {
 
     setlocale(LC_ALL, "RUSSIAN");
+    //Тестовый комментарий
 
     std::list<int> integerList(10); // Создаем список из 10 элементов
     std::list<int> copiedList;
