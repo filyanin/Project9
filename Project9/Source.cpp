@@ -17,6 +17,7 @@ int main() {
 
     std::srand(time(NULL));
 
+
     // Используем generate для заполнения списка случайными значениями
     std::generate(integerList.begin(), integerList.end(), []()->int {
         return int(rand())%10;
